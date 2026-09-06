@@ -9,10 +9,9 @@
 
 ## Why I Chose This Issue
 
-I chose issue #511, "UI: add a svg icon for the crash cymbal," because it is a focused UI issue that gives me an opportunity to work with an existing codebase while strengthening my frontend development skills. The issue addresses a missing crash cymbal icon in the Rock Variation Pattern, even though the corresponding MIDI note is already configured.
+I chose issue #511, "UI: add a svg icon for the crash cymbal," because it stood out to me the most out of the available issues. I love music, so I thought working on a music-related project would be both interesting and enjoyable. The issue focuses on adding a missing crash cymbal icon to the Rock Variation Pattern, even though the MIDI note for it is already set up.
 
-I am interested in this issue because it gives me experience navigating an unfamiliar codebase and understanding how existing UI components and assets are implemented. Since the issue has a clearly defined problem and is labeled as a "good first issue," I believe it is a manageable starting point for contributing to an open-source project. I hope to learn more about working with SVG assets, understanding an existing project's structure, and making a UI change that follows the project's current design patterns.
-
+I also chose this issue because it seems like a good opportunity to build on my frontend skills while learning how to work with an existing codebase. Since it is labeled as a "good first issue" and has a clear goal, I felt like it would be a good starting point for my first open-source contribution. Through this issue, I hope to become more comfortable navigating someone else's code, working with SVG assets, and understanding how UI changes are made within a larger project.
 ---
 Understanding the Issue
 Problem Description
