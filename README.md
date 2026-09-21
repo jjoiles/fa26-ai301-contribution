@@ -3,7 +3,7 @@
 **Contribution Number:** 1  
 **Student:** Jean Joiles  
 **Issue:** https://github.com/Babali42/DrumBeatRepo/issues/511  
-**Status:** Phase II Complete
+**Status:** Phase III Complete
 
 ---
 
@@ -97,26 +97,52 @@ Using UMPIRE framework (adapted):
 **Evaluate:** I would run the application and verify that the crash cymbal SVG appears correctly in the Rock Variation Pattern. I would also make sure the other instrument icons continue to display correctly and run the appropriate frontend tests to check that nothing else was affected.
 
 ---
-Testing Strategy
-Unit Tests
-[ ] Test case 1: [Description]
-[ ] Test case 2: [Description]
-[ ] Test case 3: [Description]
-Integration Tests
-[ ] Integration scenario 1
-[ ] Integration scenario 2
-Manual Testing
-[What you tested manually and results]
 ---
-Implementation Notes
-Week [X] Progress
-[What you built this week, challenges faced, decisions made]
-Week [Y] Progress
-[Continue documenting as you work]
-Code Changes
-Files modified: [List]
-Key commits: [Links to important commits]
-Approach decisions: [Why you chose certain approaches]
+
+## Testing Strategy
+
+### Unit Tests
+
+- [x] Test case 1: Verify that the crash cymbal MIDI value maps to `assets/images/drums/crash.svg`.
+- [x] Test case 2: Verify that the crash cymbal uses the new crash image instead of the default image.
+- [x] Test case 3: Verify that the existing drum image mappings remain in place.
+
+### Integration Tests
+
+- [x] Verify that the crash cymbal image follows the same frontend image structure used by the other drum instruments.
+- [x] Verify that the new crash cymbal SVG assets are correctly connected to the drum image pipe.
+
+### Manual Testing
+
+During the in-class walkthrough, the implementation was reviewed to confirm that the crash cymbal was mapped to the new crash image and that the light and dark SVG assets were added to the frontend.
+
+---
+
+## Implementation Notes
+
+### Week [X] Progress
+
+During class, we completed the implementation for Issue #511. The crash cymbal was already represented by MIDI values in the application, so the implementation focused on connecting those values to the correct image. The drum image pipe was updated to map the crash cymbal values to the new crash image. Light and dark versions of the crash cymbal SVG were also added to the frontend assets, and the existing unit test was updated to expect the crash cymbal image instead of the default image.
+
+The main challenge was understanding how the existing drum images were connected to their MIDI values. Reviewing the existing mappings and tests helped show how the crash cymbal could be added while following the structure already used by the project.
+
+### Week [Y] Progress
+
+The completed changes were reviewed to confirm that the crash cymbal implementation followed the existing frontend structure and that the necessary image assets, mappings, and test updates were included.
+
+### Code Changes
+
+**Files modified:**
+- `frontend/src/app/ui/pipes/drum-image.pipe.ts`
+- `frontend/src/app/ui/pipes/drum-image.pipe.spec.ts`
+- `frontend/src/assets/images/drums/crash-dark.svg`
+- `frontend/src/assets/images/drums/crash-light.svg`
+
+**Key commits:**  
+https://github.com/shanker-codepath/DrumBeatRepo/commit/b59aaf31b18ac289dae77653635de0e3b691eaa1
+
+**Approach decisions:** The implementation followed the existing structure used for the other drum instrument images so that the crash cymbal would be handled consistently with the rest of the frontend.
+
 ---
 Pull Request
 PR Link: [GitHub PR URL when submitted]
