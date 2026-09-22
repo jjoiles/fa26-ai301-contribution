@@ -3,7 +3,7 @@
 **Contribution Number:** 1  
 **Student:** Jean Joiles  
 **Issue:** https://github.com/Babali42/DrumBeatRepo/issues/511  
-**Status:** Phase III Complete
+**Status:** Phase IV Complete
 
 ---
 
@@ -144,23 +144,38 @@ https://github.com/shanker-codepath/DrumBeatRepo/commit/b59aaf31b18ac289dae77653
 **Approach decisions:** The implementation followed the existing structure used for the other drum instrument images so that the crash cymbal would be handled consistently with the rest of the frontend.
 
 ---
-Pull Request
-PR Link: [GitHub PR URL when submitted]
-PR Description: [Draft or final PR description - much of the content above can be adapted]
-Maintainer Feedback:
-[Date]: [Summary of feedback received]
-[Date]: [How you addressed it]
-Status: [Awaiting review / Iterating / Approved / Merged]
+## Pull Request
+
+**PR Link:** [Add GitHub PR URL after the pull request is submitted]
+
+**PR Description:** This contribution addresses Issue #511 by adding the missing crash cymbal SVG icon to the Rock Variation Pattern. The implementation adds light and dark crash cymbal SVG assets, updates the drum image pipe to map the crash cymbal MIDI values to the new image, and updates the existing unit test to reflect the new crash cymbal image.
+
+### Maintainer Feedback
+
+No maintainer feedback has been received yet. This section will be updated after the pull request is submitted and reviewed.
+
+**Status:** Awaiting review
+
 ---
-Learnings & Reflections
-Technical Skills Gained
-[What you learned technically]
-Challenges Overcome
-[What was hard and how you solved it]
-What I'd Do Differently Next Time
-[Reflection on your process]
+
+## Learnings & Reflections
+
+### Technical Skills Gained
+
+Through this contribution, I gained more experience navigating an existing open-source codebase and understanding how frontend assets are connected to application logic. I also learned more about working with SVG assets, following existing code patterns, and understanding how unit tests can be updated to validate a UI change.
+
+### Challenges Overcome
+
+One of the main challenges was understanding how the drum images were connected to their corresponding MIDI values. Working through the project in class and reviewing the existing drum image mappings made it easier to understand where the crash cymbal needed to be added and how to keep the implementation consistent with the other instruments.
+
+### What I'd Do Differently Next Time
+
+For my next open-source contribution, I would spend more time independently exploring the repository structure before beginning the implementation. This would help me become more familiar with the codebase earlier and make it easier to identify the files, tests, and assets related to the issue.
+
 ---
-Resources Used
-[Link to helpful documentation]
-[Tutorial or Stack Overflow post that helped]
-[GitHub issues or discussions that helped]
+
+## Resources Used
+
+- Original Issue #511: https://github.com/Babali42/DrumBeatRepo/issues/511
+- DrumBeatRepo: https://github.com/Babali42/DrumBeatRepo
+- Class development branch: https://github.com/shanker-codepath/DrumBeatRepo/tree/cymbal-image
