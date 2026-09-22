@@ -146,13 +146,13 @@ https://github.com/shanker-codepath/DrumBeatRepo/commit/b59aaf31b18ac289dae77653
 ---
 ## Pull Request
 
-**PR Link:** [Add GitHub PR URL after the pull request is submitted]
+**PR Link:**  https://github.com/shanker-codepath/DrumBeatRepo/tree/cymbal-image
 
 **PR Description:** This contribution addresses Issue #511 by adding the missing crash cymbal SVG icon to the Rock Variation Pattern. The implementation adds light and dark crash cymbal SVG assets, updates the drum image pipe to map the crash cymbal MIDI values to the new image, and updates the existing unit test to reflect the new crash cymbal image.
 
 ### Maintainer Feedback
 
-No maintainer feedback has been received yet. This section will be updated after the pull request is submitted and reviewed.
+No maintainer feedback has been received.
 
 **Status:** Awaiting review
 
